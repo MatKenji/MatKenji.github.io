@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8" />
@@ -14,7 +13,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#experiencia">Skills</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
@@ -30,10 +29,10 @@
             </div>
             <div class="menu-links">
                 <li><a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
-                <li><a href="#experiencia" onclick="toggleMenu()">Experiência</a></li>
+                <li><a href="#experiencia" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
                 <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
-            </div>
+            </div>  
         </div>
     </nav>
     <section id="perfil">
@@ -62,6 +61,12 @@
                   </a>
               </div>
           </div>
+          <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#sobre'"
+        />
       </div>
   </section>
   <section id="sobre">
@@ -81,8 +86,7 @@
                     <img src="./assets/education.png" alt="Ícone de educação" class="icon" />
                     <h3>Educação</h3>
                     <ul>
-                        <li>Centro Universitário FEI Bacharelado em Engenharia de Robôs (Previsão de Graduação: Dezembro de 2025)</li>
-                        <li>ETEC Jorge Street Técnico Mecatrônica (Graduação: Maio de 2021)</li>
+                        <p>Centro Universitário FEI Bacharelado em Engenharia de Robôs (Previsão de Graduação: Dezembro de 2025)<br />ETEC Jorge Street Técnico Mecatrônica (Graduação: Maio de 2021)</p>
                     </ul>
                 </div>
             </div>
@@ -93,18 +97,23 @@
             </div>
         </div>
     </div>
-    <img src="./assets/arrow.png" alt="Ícone de seta" class="icon arrow" onclick="location.href='./#experiencia'" />
-</section>
+    <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#experiencia'"
+  />
+  </section>
 
   
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+    <section id="experiencia">
+      <p class="section__text__p1">Veja minhas</p>
+      <h1 class="title">Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Robótica</h2>
             <div class="article-container">
               <article>
                 <img
@@ -113,8 +122,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <h3>Arduino</h3>
+                  <p>Intermediário</p>
                 </div>
               </article>
               <article>
@@ -124,8 +133,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <h3>Raspberry</h3>
+                  <p>Intermediário</p>
                 </div>
               </article>
               <article>
@@ -135,8 +144,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
+                  <h3>CoppeliaSim</h3>
+                  <p>Intermediário</p>
                 </div>
               </article>
               <article>
@@ -146,8 +155,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <h3>Webots</h3>
+                  <p>Intermediário</p>
                 </div>
               </article>
               <article>
@@ -157,8 +166,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>Gazebo</h3>
+                  <p>Intermediário</p>
                 </div>
               </article>
               <article>
@@ -168,14 +177,14 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h3>Matlab</h3>
+                  <p>Básico</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Mecânica</h2>
             <div class="article-container">
               <article>
                 <img
@@ -184,8 +193,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>Siemens NX</h3>
+                  <p>Intermediário</p>
                 </div>
               </article>
               <article>
@@ -195,8 +204,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Fusion 360</h3>
+                  <p>Intermediário</p>
                 </div>
               </article>
               <article>
@@ -206,8 +215,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>SolidWorks</h3>
+                  <p>Básico</p>
                 </div>
               </article>
               <article>
@@ -217,8 +226,30 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <h3>Ansys Granta</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ansys Workbench </h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FluidSIM</h3>
+                  <p>Básico</p>
                 </div>
               </article>
             </div>
@@ -232,95 +263,61 @@
         onclick="location.href='./#projects'"
       />
     </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+    <section id="projetos">
+      <p class="section__text__p1">Todos os meus</p>
+      <h1 class="title">Projetos</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          <!-- Primeiro projeto -->
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
+          <!-- Primeiro projeto -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- Conteúdo do primeiro projeto -->
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Sistema Hospitalar</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/MatKenji/Implementa-o-Estrutura-de-Dados.git', '_blank')">
+                              Github
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
+          <!-- Segundo projeto -->
+            <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
+            <!-- Conteúdo do segundo projeto -->            
+         </div>
+        <h2 class="experience-sub-title project-title">Jogo da forca</h2>
+          <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/MatKenji/Jogo-da-Forca.git', '_blank')">
+         Github
+          </button>
           </div>
         </div>
+
+          <!-- Terceiro projeto -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- Conteúdo do terceiro projeto -->
+            </div>
+            <h2 class="experience-sub-title project-title">daVince</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+            </div>
+          </div>
+          <!-- Mais projetos aqui, se necessário -->
+        </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
+    
+    </section>
+    <section id="contato">
+      <p class="section__text__p1">Entre em</p>
+      <h1 class="title">Contato comigo</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
@@ -328,7 +325,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:mathkenji1@gmail.com">mathkenji1@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -336,7 +333,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/matheus-kenji-koga-dieguez/">LinkedIn</a></p>
         </div>
       </div>
     </section>
