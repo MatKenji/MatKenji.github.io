@@ -1,0 +1,356 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Matheus Kenji</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Matheus Kenji</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#sobre" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#experiencia" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+            </div>  
+        </div>
+    </nav>
+    <section id="perfil">
+      <div class="section-container">
+          <div class="section__pic-container">
+              <img src="./assets/fotoPerfil.jfif" alt="Foto de perfil de Matheus Kenji" />
+          </div>
+          <div class="section__text">
+              <p class="section__text__p1">Olá, eu sou</p>
+              <h1 class="title">Matheus Kenji</h1>
+              <p class="section__text__p2">Estudante de Engenharia de Robôs</p>
+              <div class="btn-container">
+                  <button class="btn btn-color-2" onclick="window.open('./assets/Currículo Matheus Kenji Koga Dieguez.pdf')">
+                      Baixar CV
+                  </button>
+                  <button class="btn btn-color-1" onclick="location.href='./#contato'">
+                      Informações de Contato
+                  </button>
+              </div>
+              <div id="socials-container">
+                  <a href="https://www.linkedin.com/in/matheus-kenji-koga-dieguez/" target="_blank">
+                      <img src="./assets/linkedin.png" alt="Meu perfil do LinkedIn" class="icon" />
+                  </a>
+                  <a href="https://github.com/MatKenji" target="_blank">
+                      <img src="./assets/github.png" alt="Meu perfil do Github" class="icon" />
+                  </a>
+              </div>
+          </div>
+          <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#sobre'"
+        />
+      </div>
+  </section>
+  <section id="sobre">
+    <div class="section-container">
+        <div class="about-details-container">
+            <div class="about-header">
+                <p class="section__text__p1">Conheça mais</p>
+                <h1 class="title">Sobre Mim</h1>
+            </div>
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="Ícone de experiência" class="icon" />
+                    <h3>Experiência</h3>
+                    <p>Membro<br />RoboFEI SSL</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="Ícone de educação" class="icon" />
+                    <h3>Educação</h3>
+                    <ul>
+                        <p>Centro Universitário FEI Bacharelado em Engenharia de Robôs (Previsão de Graduação: Dezembro de 2025)<br />ETEC Jorge Street Técnico Mecatrônica (Graduação: Maio de 2021)</p>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    Apaixonado por Engenharia Robótica e orgulhoso graduado em Tecnologia Mecatrônica, atualmente cursando uma licenciatura no Centro Universitário FEI. Ex membro da equipe ROBO FEI SSL, contribuindo para projetos de robótica. Com competência em Robótica, Automação e Sistemas Elétricos, com uma base sólida em Mecatrônica. Explorando com entusiasmo tecnologias emergentes e suas aplicações na automação industrial, trago um conjunto abrangente de habilidades para contribuir com projetos inovadores que moldam o futuro da automação. Animado para aplicar minha experiência em um ambiente dinâmico e orientado para o futuro.
+                </p>
+            </div>
+        </div>
+    </div>
+    <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#experiencia'"
+  />
+  </section>
+
+<!-- Este é um comentário em HTML -->
+  
+    </section>
+    <section id="experiencia">
+      <p class="section__text__p1">Veja minhas</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Robótica</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Arduino</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Raspberry</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CoppeliaSim</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Webots</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Gazebo</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Matlab</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Mecânica</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Siemens NX</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Fusion 360</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SolidWorks</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ansys Granta</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ansys Workbench </h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FluidSIM</h3>
+                  <p>Básico</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projetos">
+      <p class="section__text__p1">Todos os meus</p>
+      <h1 class="title">Projetos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Primeiro projeto -->
+          <div class="details-container color-container">
+            <div class="article-container">
+          <!-- Primeiro projeto -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- Conteúdo do primeiro projeto -->
+            </div>
+            <h2 class="experience-sub-title project-title">Sistema Hospitalar</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/MatKenji/Implementa-o-Estrutura-de-Dados.git', '_blank')">
+                              Github
+              </button>
+            </div>
+          </div>
+          <!-- Segundo projeto -->
+            <div class="details-container color-container">
+            <div class="article-container">
+            <!-- Conteúdo do segundo projeto -->            
+         </div>
+        <h2 class="experience-sub-title project-title">Jogo da forca</h2>
+          <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/MatKenji/Jogo-da-Forca.git', '_blank')">
+         Github
+          </button>
+          </div>
+        </div>
+
+          <!-- Terceiro projeto -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- Conteúdo do terceiro projeto -->
+            </div>
+            <h2 class="experience-sub-title project-title">daVince</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/MatKenji/daVine', '_blank')">
+                Github
+              </button>
+            </div>
+          </div>
+          <!-- Mais projetos aqui, se necessário -->
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    
+    </section>
+    <section id="contato">
+      <p class="section__text__p1">Entre em</p>
+      <h1 class="title">Contato comigo</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:mathkenji1@gmail.com">mathkenji1@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/matheus-kenji-koga-dieguez/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Matheus Kenji. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
